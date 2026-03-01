@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { width: 300px; padding: 10px; font-family: Arial; }
+    input, button { width: 100%; margin: 5px 0; padding: 8px; }
+    #results { max-height: 200px; overflow-y: auto; }
+    .item { padding: 5px; border-bottom: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h3>浏览器历史管理</h3>
+  <input type="text" id="searchInput" placeholder="搜索关键词...">
+  <button id="searchBtn">搜索</button>
+  <button id="exportBtn">手动导出</button>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
